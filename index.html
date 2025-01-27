@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamburg Netzwerk RP.de - Die Plattform für das Hamburger Roleplay-Netzwerk">
+    <title>Hamburg Netzwerk RP.de</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e74c3c; /* Roter Hintergrund */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 5px solid #16a085;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            margin: 0 15px;
+            background-color: #16a085;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+        h2 {
+            color: #16a085;
+            font-size: 36px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .features li {
+            font-size: 18px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .features li::before {
+            content: "✔️";
+            margin-right: 10px;
+            color: #1abc9c;
+        }
+        .team-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .team-list li {
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .team-list li:hover {
+            transform: translateY(-10px);
+        }
+        .team-list h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #1abc9c;
+        }
+        .team-list p {
+            color: #bdc3c7;
+        }
+        .discord-widget {
+            margin-top: 30px;
+            background-color: #34495e;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .discord-widget iframe {
+            border: none;
+            width: 100%;
+            height: 400px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer p {
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 36px;
+            }
+            header p {
+                font-size: 16px;
+            }
+            nav a {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            .features li {
+                font-size: 16px;
+            }
+            .team-list li {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hamburg Netzwerk RP.de</h1>
+    <p>Die Plattform für das Hamburger Roleplay-Netzwerk</p>
+</header>
+
+<nav>
+    <a href="#home">Startseite</a>
+    <a href="#about">Über uns</a>
+    <a href="#team">Unser Team</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="content">
+    <section id="home">
+        <h2>Willkommen auf Hamburg Netzwerk RP.de!</h2>
+        <p>Erlebe das **beste Roleplay in Hamburg**! 🚗✨</p>
+        <p>Unser Server bietet dir eine einzigartige und immersive Welt, in der du deine eigenen Geschichten schreiben kannst! Tritt unserer **großen Community** bei und erlebe **unvergessliche Abenteuer**. 🎮🌟</p>
+    </section>
+
+    <section id="server-info">
+        <h2>🌟 Warum Hamburg Netzwerk RP.de? 🌟</h2>
+        <p>
+            Auf **Hamburg Netzwerk RP.de** bieten wir dir eine Vielzahl von Funktionen, die dir das bestmögliche RP-Erlebnis bieten:
+        </p>
+        <div class="features">
+            <ul>
+                <li>🏙️ **Realistisches Hamburger RP**: Tauche in die Straßen von Hamburg ein und erlebe echtes Roleplay.</li>
+                <li>🚗 **Fahrzeuge und Gebäude**: Fahre Autos, Motorräder, Lkw und baue deine eigenen Häuser und Geschäfte.</li>
+                <li>👮 **Berufe und Jobs**: Werde Polizist, Arzt, Feuerwehrmann oder betreibe ein eigenes Unternehmen!</li>
+                <li>🔨 **Anpassung und Bau**: Gestalte deine Welt nach deinen Vorstellungen.</li>
+                <li>🌍 **Ständige Updates**: Regelmäßige neue Features und Events!</li>
+            </ul>
+            <p>Werde ein Teil unserer Community und starte dein Abenteuer noch heute! 🌟</p>
+            <p>💬 <a href="https://discord.gg/Kd6YhfDXXD" target="_blank" style="color: #1abc9c;">Tritt unserem Discord bei!</a></p>
+        </div>
+    </section>
+
+    <section id="team">
+        <h2>Unser Team</h2>
+        <div class="team-list">
+            <ul>
+                <li>
+                    <h3>Fabian</h3>
+                    <p>Hamburg Roleplay rp.de</p>
+                </li>
+                <li>
+                    <h3>HyperSquasch</h3>
+                    <p>Owner</p>
+                </li>
+                <li>
+                    <h3>Julius</h3>
+                    <p>Stellv. Owner</p>
+                </li>
+                <li>
+                    <h3>Florian</h3>
+                    <p>Projektleitung</p>
+                </li>
+                <li>
+                    <h3>Max</h3>
+                    <p>Car Entwickler</p>
+                </li>
+                <li>
+                    <h3>Ben</h3>
+                    <p>Test Entwickler</p>
+                </li>
+                <li>
+                    <h3>Ricci</h3>
+                    <p>Administrator |||</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Hast du Fragen oder möchtest mehr erfahren? Wir sind für dich da! 💬</p>
+        <p><strong>Email:</strong> info@hamburgnetzwerk-rp.de</p>
+        <p><strong>Unser Discord-Server:</strong> <a href="https://discord.gg/Kd6YhfDXXD" target="_blank" style="color: #1abc9c;">Tritt unserem Discord bei!</a></p>
+    </section>
+
+    <div class="discord-widget">
+        <h3>Discord Server Status</h3>
+        <iframe src="https://discord.com/widget?id=Kd6YhfDXXD&theme=dark" width="100%" height="400" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Hamburg Netzwerk RP.de | Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
